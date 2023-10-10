@@ -1,0 +1,3 @@
+mu,test_set_size,seed,bootstrap_bca_5_score,bootstrap_bca_last_score,bootstrap_5_score,bootstrap_last_score,bootstrap_analytical_score,clt_slutsky_score,t_distribution_score
+0.85,15,1998,0,0,0,0,0,0,0
+0.85,1000,1998,0,0,0,0,0,0,0

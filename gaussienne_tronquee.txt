@@ -1,0 +1,3 @@
+gaussienne tronquée (densité*(1+(intégrale de 2 à + l'infini)+(intégrale de - l'infini à 0)
+regarder intervalle avec 2.5% en bas et 2.5% en haut de retiré
+si mu_i est dedans c'est un problème. Si mu_i est dans 2.5% en haut alors upper bound à 2 et lower bound tel que P[lower_bound ; mu_i] = 5/100-P(mu_i,2)
