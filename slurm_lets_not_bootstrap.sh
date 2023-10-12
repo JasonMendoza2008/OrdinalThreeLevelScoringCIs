@@ -19,7 +19,7 @@ source activate bootstrap_env
 # Run python script
 for VARIABLE in 0 1000 2000 3000 4000 5000
 do
-  for n in 8 10 20 30 40 50 75 100 150 200 350 500 750 1000 5000
+  for n in 8 10 20 30 40 50 75 100 150 200 350 500 750 1000 2000
   do
     python main.py --seed=$((SLURM_ARRAY_TASK_ID + VARIABLE)) --test_set_size=$n --p0=0.1 --p1=0.7 --p2=0.2
 
